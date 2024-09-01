@@ -70,6 +70,7 @@ folder_path = r'...\Downloads'
 # Llama a la función para renombrar los archivos
 rename_files_in_folder(folder_path)
 ```
+______________________________________
 
 ¡Listo! Ya tienes una base etiqueta por ti. :blush:
 
