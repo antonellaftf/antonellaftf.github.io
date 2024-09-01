@@ -32,7 +32,7 @@ summary(ml1)
 ```
 <image src="+/image.png">
 
-:eyes: **Ojito**:  Si te diste cuenta al final del modelo, después del ```None``` aparece un ```| 0```. Esto se debe a que por defecto, se añade un intercepto al modelo, y para eliminar ese adicional se puede utilizando +0 o -1 en la segunda parte. Por lo que también lo podrías hacer el modelo de la siguiente manera:
+:eyes: **Ojito**:  Si te diste cuenta al final del modelo, después del ```None``` aparece un ```| 0```. Esto se debe a que por defecto, se añade un intercepto al modelo, y para eliminar ese adicional se puede utilizar 0 o -1 en la segunda parte. Por lo que también lo podrías hacer el modelo de la siguiente manera:
 
 ```R
 ml1 <- mlogit(Selected ~ Storage_4GB + Storage_8GB + Screen.size_5inch + Screen.size_6inch + Color_black + Color_white + Price_79 + Price_99 + Price_119 + None | -1, cbc)
